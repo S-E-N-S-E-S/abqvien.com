@@ -8,10 +8,10 @@ import Link from "next/link";
 
 const HomePage = () => {
   const areas = [
-    { title: "Thrombectomy or De-clot", icon: "1a.jpg" },
-    { title: "Angioplasty", icon: "2a.jpg" },
-    { title: "Vessel Mapping", icon: "3a.jpg" },
-    { title: "Angiogram or Fistulogram", icon: "4a.jpg" },
+    { title: "Thrombectomy or De-clot", icon: "thrombectomy.jpg" },
+    { title: "Angioplasty", icon: "angioplasty.jpg" },
+    { title: "Vessel Mapping", icon: "vessel.jpg" },
+    { title: "Angiogram or Fistulogram", icon: "angiogram.jpg" },
   ];
 
   return (
@@ -48,7 +48,7 @@ const HomePage = () => {
               <h1 className="text-4xl font-bold mb-6">
                 Effective results | Painless Treatment | Zero Side-effects
               </h1>
-              <h2 className="text-2xl">Non-invasive vien treatments & therapies with no side-effects</h2>
+              <h2 className="text-2xl">Non-invasive vein treatments & therapies with no side-effects</h2>
               <p className="text-xl">
                 Providing comprehensive vascular care with a personal touch.
               </p>
