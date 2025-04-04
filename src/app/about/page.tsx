@@ -19,21 +19,227 @@ const About: React.FC = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen">
-      <header className="bg-white shadow-md sticky top-0 z-10">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
+      <header className="bg-white shadow-md sticky top-0 z-10 m-0">
+      <div className="bg-sky-700 text-white justify-between py-1  ">
+        <div className="flex justify-between space-x-4">
+        <div className="flex items-center space-x-2 pl-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="white"
+          viewBox="0 0 24 24"
+          strokeWidth={2}
+          stroke="white"
+          className="w-6 h-6"
+        >
+          <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M3 5.25C3 4.00736 4.00736 3 5.25 3h13.5C19.9926 3 21 4.00736 21 5.25v13.5c0 1.2426-1.0074 2.25-2.25 2.25H5.25C4.00736 21 3 19.9926 3 18.75V5.25zM16.5 7.5h-9m9 3h-9m6 3h-6"
+          />
+        </svg>
+        <h1 className="text-lg font-sans text-center">
+          (505) 448-8346
+        </h1>
+        </div>
+
+        <div className="flex items-center space-x-2 pl-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="white"
+          viewBox="0 0 24 24"
+          strokeWidth={2}
+          stroke="white"
+          className="w-6 h-6"
+        >
+          <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M3 5.25C3 4.00736 4.00736 3 5.25 3h13.5C19.9926 3 21 4.00736 21 5.25v13.5c0 1.2426-1.0074 2.25-2.25 2.25H5.25C4.00736 21 3 19.9926 3 18.75V5.25zM16.5 7.5h-9m9 3h-9m6 3h-6"
+          />
+        </svg>
+        <h1 className="text-lg font-bld text-center">
+        Our
+        </h1>
+        <h1 className="text-lg font-extrabold text-center">
+        Osuna Road NE, NM
+        </h1>
+        <h1 className="text-lg font-bld text-center">
+        Office
+        </h1>
+        </div>
+
+        <div className="flex items-center space-x-2 pr-4">
+        <h1 className="text-lg font-extrabold text-center">
+        Fax:
+        </h1>
+        <h1 className="text-lg font-bld text-center">
+        (505) 531-8914
+        </h1>
+        </div>
+          
+        </div>
+      </div>
+
+      <div className="container px-4 py-6 flex justify-evenly items-center">
           <h1 className="text-3xl font-extrabold text-blue-900">
-            <Link href="/">Advanced Vascular</Link>
+            <Link href="/">Advanced Vascularr</Link>
           </h1>
-          <nav>
-            <Link
-              href="../contact-us"
-              className="text-blue-600 hover:text-blue-900 transition duration-300"
-            >
-              Consult Now
+
+          {/* Navigation Section with Dropdown */}
+          <nav className="flex space-x-6 items-center ">
+            {/* ✅ Dropdown Menu */}
+            <div className="relative group">
+              {/* Dropdown Button */}
+              <button className="text-sky-600 hover:text-sky-900 transition duration-300 text-base">
+                Home 
+              </button>
+              
+              {/* Dropdown Content */}
+              <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-48 ">
+                <ul className="text-gray-700 text-sm">
+                  <li>
+                    <Link href="/service-1" className="block px-4 py-2 hover:bg-blue-100 ">Service 1</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-2" className="block px-4 py-2 hover:bg-blue-100">Service 2</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-3" className="block px-4 py-2 hover:bg-blue-100">Service 3</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="relative group">
+              {/* Dropdown Button */}
+              <button className="text-sky-600 hover:text-sky-900 transition duration-300 text-base">
+                Venous Conditions 
+              </button>
+              
+              {/* Dropdown Content */}
+              <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-48">
+                <ul className="text-gray-700 text-sm">
+                  <li>
+                    <Link href="/service-1" className="block px-4 py-2 hover:bg-blue-100">Service 1</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-2" className="block px-4 py-2 hover:bg-blue-100">Service 2</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-3" className="block px-4 py-2 hover:bg-blue-100">Service 3</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="relative group">
+              {/* Dropdown Button */}
+              <button className="text-sky-600 hover:text-sky-900 transition duration-300 text-base">
+                Reasons to be Checked 
+              </button>
+              
+              {/* Dropdown Content */}
+              <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-48">
+                <ul className="text-gray-700 text-sm">
+                  <li>
+                    <Link href="/service-1" className="block px-4 py-2 hover:bg-blue-100">Service 1</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-2" className="block px-4 py-2 hover:bg-blue-100">Service 2</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-3" className="block px-4 py-2 hover:bg-blue-100">Service 3</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="relative group">
+              {/* Dropdown Button */}
+              <button className="text-sky-600 hover:text-sky-900 transition duration-300 text-base">
+                Services And Treatments
+              </button>
+              
+              {/* Dropdown Content */}
+              <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-48">
+                <ul className="text-gray-700 text-sm">
+                  <li>
+                    <Link href="/service-1" className="block px-4 py-2 hover:bg-blue-100">Service 1</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-2" className="block px-4 py-2 hover:bg-blue-100">Service 2</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-3" className="block px-4 py-2 hover:bg-blue-100">Service 3</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="relative group">
+              {/* Dropdown Button */}
+              <button className="text-sky-600 hover:text-sky-900 transition duration-300 text-base">
+                Contact Us 
+              </button>
+              
+              {/* Dropdown Content */}
+              <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-48">
+                <ul className="text-gray-700 text-sm">
+                  <li>
+                    <Link href="/service-1" className="block px-4 py-2 hover:bg-blue-100">Service 1</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-2" className="block px-4 py-2 hover:bg-blue-100">Service 2</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-3" className="block px-4 py-2 hover:bg-blue-100">Service 3</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="relative group">
+              {/* Dropdown Button */}
+              <button className="text-sky-600 hover:text-sky-900 transition duration-300">
+                Refferal Form 
+              </button>
+              
+              {/* Dropdown Content */}
+              <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-48">
+                <ul className="text-gray-700">
+                  <li>
+                    <Link href="/service-1" className="block px-4 py-2 hover:bg-blue-100">Service 1</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-2" className="block px-4 py-2 hover:bg-blue-100">Service 2</Link>
+                  </li>
+                  <li>
+                    <Link href="/service-3" className="block px-4 py-2 hover:bg-blue-100">Service 3</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Consult Now Button */}
+            <Link href="../contact-us" 
+            className="bg-sky-700 text-white font-semibold px-6 py-2 rounded-lg hover:bg-sky-800 transition duration-300">
+              Appointments
             </Link>
           </nav>
+
+
+          
+          {/* <nav>
+        <Link
+          href="../contact-us"
+          className="text-blue-600 hover:text-blue-900 transition duration-300"
+        >
+          Consult Now
+        </Link>
+          </nav> */}
         </div>
       </header>
+      
       <div className=" mx-auto  ">
         <motion.h1
           className="text-4xl font-bold text-center text-blue-600 mb-12"
