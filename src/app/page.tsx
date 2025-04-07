@@ -5,32 +5,20 @@ import HoverImageSection from "./components/hover";
 import TestimonialSection from "./components/testimonial";
 import Footer from "./components/footer";
 import Link from "next/link";
+import Header from "./components/header";
 
 const HomePage = () => {
   const areas = [
-    { title: "Thrombectomy or De-clot", icon: "thrombectomy.jpg" },
-    { title: "Angioplasty", icon: "angioplasty.jpg" },
-    { title: "Vessel Mapping", icon: "vessel.jpg" },
-    { title: "Angiogram or Fistulogram", icon: "angiogram.jpg" },
+    { title: "RFA", icon: "/treatments/rfa.png" },
+    { title: "Venaseal", icon: "/treatments/venaseal.png" },
+    { title: "Varithena", icon: "vessel.jpg" },
+    { title: "Asclera", icon: "angiogram.jpg" },
+    { title: "Laser Ablation", icon: "angiogram.jpg" },
   ];
 
   return (
     <div className="bg-gradient-to-r from-blue-200 to-green-50 text-gray-500 font-sans">
-      <header className="bg-white shadow-md sticky top-0 z-10">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <h1 className="text-3xl font-extrabold text-blue-900">
-            Advanced Vascular
-          </h1>
-          <nav>
-            <Link
-              href="../contact-us"
-              className="text-blue-600 hover:text-blue-800 transition duration-300"
-            >
-              Consult Now
-            </Link>
-          </nav>
-        </div>
-      </header>
+      <Header />
       <main className="container max-w-max">
         <section
           className="parallax bg-fixed bg-cover bg-center h-screen mb-10 relative"
@@ -46,9 +34,9 @@ const HomePage = () => {
           <div className="flex items-center justify-center h-full relative">
             <div className="text-center text-white">
               <h1 className="text-4xl font-bold mb-6">
-                Effective results | Painless Treatment | Zero Side-effects
+                Effective results | Painless Treatment 
               </h1>
-              <h2 className="text-2xl">Non-invasive vein treatments & therapies with no side-effects</h2>
+              <h2 className="text-2xl">Non-Invasive Vein Treatments and Therapies </h2>
               <p className="text-xl">
                 Providing comprehensive vascular care with a personal touch.
               </p>
@@ -65,7 +53,7 @@ const HomePage = () => {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
             Procedures Performed
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
             {areas.map((area, index) => (
               <div
                 key={index}
@@ -74,7 +62,7 @@ const HomePage = () => {
                 <img
                   src={area.icon}
                   alt={area.title}
-                  className="w-100 h-100 mb-4"
+                  className="w-50 h-50 mb-4"
                 />
                 <p className="text-gray-800 font-medium">{area.title}</p>
               </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import TestimonialSection from "../components/testimonial";
-import Footer from "../components/footer";
-import Header from "../components/header";
+import TestimonialSection from "../../components//testimonial";
+import Footer from "../../components/footer";
+import Header from "../../components/header";
 
 const ContactPage = () => {
   return (

@@ -1,24 +1,30 @@
 import React from "react";
 import Link from "next/link";
-import TestimonialSection from "../components/testimonial";
-import Footer from "../components/footer";
-import Header from "../components/header";
+import Header from "@/app/components/header";
+import TestimonialSection from "@/app/components/testimonial";
+import Footer from "@/app/components/footer";
 
-const ContactPage = () => {
+
+const Varicose = () => {
   return (
     <div className="bg-gradient-to-r from-blue-200 to-green-50 text-gray-500 font-sans">
       <Header />
       <main className="container mx-auto px-4 py-8">
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">Contact Us</h2>
+          <h2 className="text-2xl font-bold mb-6 text-blue-900 text-center">Asclera</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <p className="mb-4">
-              4501 Osuna Road NE, Albuquerque, New Mexico, 87109
+              ClosureRFG™ Radiofrequency Generator
+                Indications for Use: The ClosureRFG generator is used with radiofrequency catheters intended for vessel and tissue coagulation.
+                Contraindications: Refer to the applicable radiofrequency catheter instructions for use for a list of contraindications related to a ClosureFast system
+                procedure.
+                Potential Adverse Effects of the Device on Health: Refer to the applicable radiofrequency catheter instructions for use for a list of potential
+                complications related to a ClosureFast system procedure.
+                Important: Please reference the Operation Manual for a complete listing of indications, warnings, precautions safety notices, and operational
+                information.
               </p>
-              <p className="mb-4">Phone: (505) 448-8346</p>
-              <p className="mb-4">Fax: (505) 531-8914</p>
-              <p className="mb-4">Hours of Operation</p>
+              
               <ul className="list-disc pl-5 mb-4">
                 <li>Monday - Friday: 8AM - 5PM</li>
                 <li>Saturday - Sunday: Closed</li>
@@ -154,4 +160,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default Varicose;

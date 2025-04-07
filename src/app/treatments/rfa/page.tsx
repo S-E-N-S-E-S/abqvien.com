@@ -1,16 +1,17 @@
 import React from "react";
 import Link from "next/link";
-import TestimonialSection from "../components/testimonial";
-import Footer from "../components/footer";
-import Header from "../components/header";
+import Header from "@/app/components/header";
+import TestimonialSection from "@/app/components/testimonial";
+import Footer from "@/app/components/footer";
 
-const ContactPage = () => {
+
+const Rfa = () => {
   return (
     <div className="bg-gradient-to-r from-blue-200 to-green-50 text-gray-500 font-sans">
       <Header />
       <main className="container mx-auto px-4 py-8">
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">Contact Us</h2>
+          <h2 className="text-2xl font-bold mb-6 text-blue-900 text-center">Radio Frequency Ablation</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <p className="mb-4">
@@ -154,4 +155,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default Rfa;

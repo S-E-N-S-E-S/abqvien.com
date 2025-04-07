@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="bg-blue-100 py-10">
@@ -33,33 +35,26 @@ const Footer = () => {
             Venous Conditions
           </h3>
           <ul className="text-gray-800 space-y-2">
-            <li>Varicose Veins</li>
-            <li>Spider Veins</li>
-            <li>Spider Veins Vs. Varicose Veins</li>
-            <li>Facial & Nose Veins</li>
-            <li>Venous Stasis Ulcers</li>
-            <li>Chronic Venous Insufficiency</li>
-            <li>Deep Vein Thrombosis</li>
-            <li>Pelvic Congestion Syndrome</li>
-            <li>Lymphedema</li>
+            {/* <li>Chronic Venous Insufficiency</li> */}
+            <Link href="/venous_condition/cvi" className="block px-4  hover:text-sky-600">Chronic Venous Insufficiency</Link>
+            <Link href="/venous_condition/cvi" className="block px-4  hover:text-sky-600">Varicose Veins</Link>
+            <Link href="/venous_condition/cvi" className="block px-4  hover:text-sky-600">Spider Veins</Link>
+            <Link href="/venous_condition/cvi" className="block px-4  hover:text-sky-600">Venous Ulcers</Link>
+          
           </ul>
         </div>
 
         {/* Right Section: Treatment & Diagnosis */}
         <div>
           <h3 className="font-bold text-lg text-gray-800 mb-4">
-            Treatment & Diagnosis
+            Treatments & Services
           </h3>
           <ul className="text-gray-800 space-y-2">
-            <li>Thrombectomy or Declot</li>
-            <li>Angiogram or Fistulogram</li>
-            <li>Angioplasty</li>
-            <li>Endo AFV Creation</li>
-            <li>Ligation or Coiling</li>
-            <li>Vessel Mapping</li>
-            <li>Tunneled Dialysis Catheter Insertion</li>
-            <li>Tunneled Dialysis Catheter Removal</li>
-            <li>Tunneled Dialysis Catheter Exchange</li>
+            <Link href="/treatments/rfa" className="block px-4  hover:text-sky-600">Radio Frequency Ablation</Link>
+            <Link href="/treatments/venaseal" className="block px-4  hover:text-sky-600">Venaseal</Link>
+            <Link href="/treatments/varithena" className="block px-4  hover:text-sky-600">Varithena</Link>
+            <Link href="/treatments/asclera" className="block px-4  hover:text-sky-600">Asclera</Link>
+            <Link href="/treatments/la" className="block px-4  hover:text-sky-600">Laser Ablation</Link>
           </ul>
         </div>
       </div>
