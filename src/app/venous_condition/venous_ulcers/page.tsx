@@ -3,161 +3,208 @@ import Link from "next/link";
 import Header from "@/app/components/header";
 import TestimonialSection from "@/app/components/testimonial";
 import Footer from "@/app/components/footer";
+import FaqSection from "@/app/components/faq";
 
 
-const Rfa = () => {
+const VenousUlcers = () => {
+
+
+  const exampleFaqs = [
+    {
+      question: "What is Venous Ulcer?",
+      answer: "A venous ulcer is a chronic wound that usually develops on the lower leg or ankle due to poor blood circulation from damaged veins. They are often slow to heal and may recur if not properly managed.",
+    },
+    {
+      question: "What causes venous ulcers?",
+      answer: "Venous ulcers are typically caused by chronic venous insufficiency, where the veins in your legs don’t effectively return blood to the heart. This leads to pressure buildup in the veins, which can damage skin and tissue, resulting in ulcers.",
+    },
+    {
+      question: "What are the symptoms of a venous ulcer?",
+      answer: (
+        <ul className="list-disc list-inside">
+          <li>Pain, itching, or swelling in the affected area</li>
+          <li>Skin discoloration or darkening (usually around the ankle)</li>
+          <li>Open wound with uneven edges and possible discharge</li>
+          <li>Hardened or leathery skin near the ulcer</li>
+        </ul>
+      ),
+    },
+    {
+      question: "How are venous ulcers diagnosed?",
+      answer: "Diagnosis typically involves a physical examination, a detailed medical history, and sometimes an ultrasound to assess blood flow in the leg veins.",
+    },
+    {
+      question: "How long does it take for a venous ulcer to heal?",
+      answer: "Healing time varies but may take several weeks to months depending on severity and adherence to treatment. Early intervention improves outcomes.",
+    },
+  ];
+
+
   return (
-    <div className="bg-gradient-to-r from-blue-200 to-green-50 text-gray-500 font-sans">
+    <div className="bg-gradient-to-r from-blue-50 to-green-50 text-gray-500 font-sans">
       <Header />
       <main className="container mx-auto px-4 py-8">
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900 text-center">Radio Frequency Ablation</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <p className="mb-4">
-              ClosureRFG™ Radiofrequency Generator
-                Indications for Use: The ClosureRFG generator is used with radiofrequency catheters intended for vessel and tissue coagulation.
-                Contraindications: Refer to the applicable radiofrequency catheter instructions for use for a list of contraindications related to a ClosureFast system
-                procedure.
-                Potential Adverse Effects of the Device on Health: Refer to the applicable radiofrequency catheter instructions for use for a list of potential
-                complications related to a ClosureFast system procedure.
-                Important: Please reference the Operation Manual for a complete listing of indications, warnings, precautions safety notices, and operational
-                information.
-              </p>
-              
-              <ul className="list-disc pl-5 mb-4">
-                <li>Monday - Friday: 8AM - 5PM</li>
-                <li>Saturday - Sunday: Closed</li>
-              </ul>
+        <div className="px-4 py-8 space-y-12 max-w-full mx-auto">
+          {/* Top Section with Image and Text */}
+          <div className="space-y-10 bg-white p-8 rounded-xl">
+            <h2 className="text-5xl text-sky-900 text-center mb-12 font-sans">
+            Venous Ulcers
+            </h2>
+
+            <div className="flex justify-center">
+              <img
+              src="/vc/venous_ulcers/image4.png"
+              alt="Venous Ulcers"
+              className="w-4/5 h-full object-cover rounded-xl mb-10 border-4 border-sky-900"
+              />
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <iframe
-                src="https://www.google.com/maps?q=35.155611,-106.590278&hl=en&z=14&output=embed"
-                width="600"
-                height="450"
-                loading="lazy"
-                className="w-full h-64 rounded-lg shadow-md"
-              ></iframe>
-            </div>
-          </div>
-        </section>
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">
-            Driving Directions
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="font-semibold text-blue-900 mb-2">
-              N on I25
-              </h3>
-              <p>
-              Get off on the San Mateo exit. Head west on osuna turn right on the street that’s between subway and Motel 6, straight. Building on the left. 4501 Osuna
-              </p>
-            </div>
+
+            
             
           </div>
-        </section>
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">
-            Frequently Asked Questions
-          </h2>
-          <div className="space-y-6">
-            <details className="bg-white shadow-md p-6 rounded-lg">
-              <summary className="font-semibold text-blue-900">
-                What Makes Advanced Vascular Different?
-              </summary>
-              <p className="mt-4">
-              • We offer state-of-the-art treatments for venous and aesthetic
-                skin concerns, ensuring you always look and feel your best.
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+           
+           <div className="p-4 border-sky-900 rounded-xl shadow-sm bg-white h-auto md:h-96">
+             <h3 className="font-semibold text-sky-900 text-xl md:text-2xl text-center mb-4 mt-4">
+             💡 What Exactly Are Venous Ulcers?
+             </h3>
+             <p className="text-base text-sky-700  text-center leading-loose mb-2 mt-2">
+             Venous ulcers (also called venous stasis ulcers) are open sores that usually occur on the lower legs or ankles.
+            </p>
+             <p className="text-base text-sky-700  text-center leading-loose mb-2 mt-2">
+             They are caused by poor blood circulation in the veins — when blood pools and pressure builds up, it damages the skin and underlying tissue, eventually leading to an open wound.</p>
+             <p className="text-base text-sky-700  text-center leading-loose mb-2 mt-2">
+             They are the most common type of leg ulcer.
               </p>
-              <p className="mt-2">
-              • Experience advanced vein treatment and vascular therapy that is painless, non-invasive, and free from side effects delivering effective results while prioritizing your comfort and well-being
-              </p>
-            </details>
+            </div>
+           <img
+             src="/vc/venous_ulcers/venous1.jpg"
+             alt="Illustration"
+             className="w-full h-64 md:h-96 object-fill rounded-xl"
+           />
+           </div>
+
+
+          {/* Two Column Section */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <img
+              src="/vc/venous_ulcers/image7.png"
+              alt="Procedure Illustration"
+              className="w-full h-full object-fill rounded-lg"
+            />
+            <div className="p-8 border-sky-900 rounded-xl shadow-sm bg-white flex flex-col justify-start h-full">
+              <h3 className="font-semibold text-sky-900 text text-2xl mr-2">
+              📍 Where Do Venous Ulcers Appear?
+              </h3>
+              <ul className="text-base text-sky-700 mb-2 mt-2 leading-loose list-disc list-inside">
+              <li>Above the ankle (usually on the inner side)</li>
+              <li>Lower calf</li>
+              <li>Rarely on the foot or higher up on the leg unless the problem is very severe</li>
+              </ul>
+            </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+            <img
+              src="/vc/venous_ulcers/image.png"
+              alt="Procedure Illustration"
+              className="w-full h-full object-cover rounded-xl"
+            />
           </div>
-        </section>
-                
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">
-            Request a Consultation
-          </h2>
-          <form 
-          action="https://formspree.io/f/xeoqzgye" // Replace with your Formspree form ID
-            method="POST"
-          className="bg-white shadow-md p-6 rounded-lg">
-            <div className="mb-4">
-              <label
-                className="block text-sm font-semibold mb-2"
-                htmlFor="name"
-              >
-                Name
-              </label>
-              <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                type="text"
-                id="name"
-                name="name"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                className="block text-sm font-semibold mb-2"
-                htmlFor="email"
-              >
-                Email
-              </label>
-              <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                type="email"
-                id="email"
-                name="email"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                className="block text-sm font-semibold mb-2"
-                htmlFor="number"
-              >
-                Phone
-              </label>
-              <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                type="number"
-                id="number"
-                name="number"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                className="block text-sm font-semibold mb-2"
-                htmlFor="message"
-              >
-                Message
-              </label>
-              <textarea
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                id="message"
-                name="message"
-              ></textarea>
-            </div>
-            <div>
-              <button
-                type="submit"
-                className="px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg transition duration-300 hover:bg-blue-800"
-              >
-                Submit
-              </button>
-            </div>
-          </form>
-        </section> 
 
 
-        <TestimonialSection/>        
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+           
+           <div className="p-4 border-sky-900 rounded-xl shadow-sm bg-white h-auto md:h-96">
+             <h3 className="font-semibold text-sky-900 text-xl md:text-2xl text-center mb-4 mt-4">
+             🧬 Why Do They Form?
+             </h3>
+             <p className="text-base text-sky-700 mt-2 leading-loose text-start ">
+             Venous ulcers happen when veins fail to push blood properly back toward the heart — a condition called chronic venous insufficiency (CVI).
+             <br/>Key causes and risk factors:
+                           </p>
+              <ul className="text-base text-sky-700  mb-2 leading-loose list-disc list-inside">
+                <li>Varicose veins (major risk factor)</li>
+                <li>Deep vein thrombosis (DVT) – past blood clots damaging valves</li>
+                <li>Obesity – increases leg vein pressure</li>
+                <li>Aging – vein walls weaken over time</li>
+                <li>Prolonged standing or sitting</li>
+                <li>History of leg injuries (trauma to veins)</li>
+              </ul>
+           </div>
+           <img
+             src="/vc/spider/image3.png"
+             alt="Procedure Illustration"
+             className="w-full h-64 md:h-96 object-fill rounded-xl"
+           />
+           </div>
+
+
+          {/* Two Column Section */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <img
+              src="/vc/venous_ulcers/image8.png"
+              alt="Procedure Illustration"
+              className="w-full h-full object-fill rounded-lg"
+            />
+            <div className="p-8 border-sky-900 rounded-xl shadow-sm bg-white flex flex-col justify-start h-full">
+              <h3 className="font-semibold text-sky-900 text text-2xl mr-2">
+              🩺 Symptoms of Venous Ulcers
+              </h3>
+              <ul className="text-base text-sky-700 leading-loose mb-2 mt-2 list-disc list-inside">
+                <li>Open wound with uneven edges</li>
+                <li>Shallow sore that may ooze or drain fluid</li>
+                <li>Skin discoloration (dark brown, purple, or red patches)</li>
+                <li>Itching or burning around the sore</li>
+                <li>Thick, hardened skin around the ulcer (lipodermatosclerosis)</li>
+                <li>Swelling in the lower leg</li>
+                <li>Pain (can be mild or severe, often worse when standing)</li>
+                <li>Foul odor if the ulcer gets infected</li>
+                </ul>
+            </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+            <img
+              src="/vc/venous_ulcers/image1.png"
+              alt="Procedure Illustration"
+              className="w-full h-full object-cover rounded-xl"
+            />
+          </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+           
+           <div className="p-4 border-sky-900 rounded-xl shadow-sm bg-white h-auto md:h-96">
+           <h3 className="font-semibold text-sky-900 text-xl md:text-2xl text-center mb-4 mt-4">
+            ⚡ Important to understand:
+             </h3>
+             <p className="text-base text-sky-700 mt-2 leading-loose text-start ">Venous ulcers form because of venous hypertension — meaning blood is pooling in the leg veins.</p>
+             <p className="text-base text-sky-700 mt-2 leading-loose text-start ">Closing the faulty veins with RFA, Varithena, VenaSeal, or Sclerotherapy:</p>
+             <ul className="text-base text-sky-700 mt-2 leading-loose text-start mb-2 list-disc list-inside">
+                <li>Reduces the pressure</li>
+                <li>Improves blood circulation</li>
+                <li>Gives the ulcer a much better chance to heal</li>
+                <li>Prevents new ulcers from forming in the futur</li>
+                </ul>
+           </div>
+           <img
+             src="/treatments/rfa/rfa_p1.jpg"
+             alt="Procedure Illustration"
+             className="w-full h-64 md:h-96 object-cover rounded-xl"
+           />
+           </div>
+
+          
+          
+
+          <FaqSection faqs={exampleFaqs}/>
+
+        </div>
       </main>
-
-      <Footer/>
+      <Footer />
     </div>
   );
 };
 
-export default Rfa;
+export default VenousUlcers;

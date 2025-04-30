@@ -3,161 +3,208 @@ import Link from "next/link";
 import Header from "@/app/components/header";
 import TestimonialSection from "@/app/components/testimonial";
 import Footer from "@/app/components/footer";
+import FaqSection from "@/app/components/faq";
 
 
-const Rfa = () => {
+const Varithena = () => {
+
+  const exampleFaqs = [
+    {
+      question: "What is Varithena?",
+      answer: "Varithena® is an FDA-approved, minimally invasive, non-surgical foam treatment used to treat varicose veins and chronic venous insufficiency. It involves injecting a specially formulated microfoam into the affected vein to collapse it and redirect blood flow to healthier veins.",
+    },
+    {
+      question: "How does Varithena work?",
+      answer: "The microfoam is injected into the problematic vein using a small needle. It fills the vein, causing it to collapse and seal shut. Over time, the closed vein is absorbed by the body, improving both symptoms and appearance.",
+    },
+    {
+      question: "Is Varithena painful?",
+      answer: "Most patients experience little to no pain. Only a small amount of local anesthetic is needed at the injection site, and no incisions or heat are used.",
+    },
+    
+    {
+      question: "What is the recovery like after Varithena?",
+      answer: (
+        <ul className="list-disc list-inside">
+          
+          <li>Most patients resume light activities the same day</li>
+          <li>You’ll need to wear compression stockings for 1–2 weeks</li>
+          <li>Avoid heavy exercise and prolonged standing for a few days</li>
+        </ul>
+      ),
+    },
+    
+    {
+      question: "Is Varithena permanent?",
+      answer: "The treated vein is permanently closed, but new varicose veins can form if underlying venous disease continues. Ongoing vein health management is important.",
+    },
+  
+  ];
+
   return (
-    <div className="bg-gradient-to-r from-blue-200 to-green-50 text-gray-500 font-sans">
+    <div className="bg-gradient-to-r from-blue-50 to-green-50 text-gray-500 font-sans">
       <Header />
       <main className="container mx-auto px-4 py-8">
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900 text-center">Radio Frequency Ablation</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <p className="mb-4">
-              ClosureRFG™ Radiofrequency Generator
-                Indications for Use: The ClosureRFG generator is used with radiofrequency catheters intended for vessel and tissue coagulation.
-                Contraindications: Refer to the applicable radiofrequency catheter instructions for use for a list of contraindications related to a ClosureFast system
-                procedure.
-                Potential Adverse Effects of the Device on Health: Refer to the applicable radiofrequency catheter instructions for use for a list of potential
-                complications related to a ClosureFast system procedure.
-                Important: Please reference the Operation Manual for a complete listing of indications, warnings, precautions safety notices, and operational
-                information.
-              </p>
+        <div className="px-4 py-8 space-y-12 max-w-full mx-auto">
+        <h2 className="text-5xl text-sky-900 text-center font-sans ">
+        <strong>Varithena : </strong>A New Way to Treat Varicose Veins
+            </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <img
+              src="/treatments/varithena/vari1.jpeg"
+              alt="Procedure Illustration"
+              className="w-full h-96 object-fill rounded-xl "
+            />
+            <div className="p-4 border-sky-900 rounded-xl shadow-sm bg-white h-96">
+              <h3 className="font-semibold text-sky-900 text text-center text-2xl  mr-2">
+              Get Back to Living with Varithena
+                </h3>
+              <p className="text-base text-sky-700 mt-4 font-sans leading-loose text-center">
+                When it comes to treating varicose veins and
+                getting back to the activities you love, there’s
+                a new, nearly painless way. Varithena is a gentle
+                foam treatment delivered in as few as 1–2 needle
+                sticks. Patients reporting pain at the injection or
+                application site in clinical trials was 4.0%.1 For most
+                people, Varithena improves both physical symptoms
+                related to varicose veins and their appearance.
+                </p>
+
+                {/* <h3 className="font-semibold text-sky-900 text text-2xl  mr-2">
+                A Quick, Nearly Painless Procedure
+                </h3>
+              <p className="text-base text-sky-700 mt-2 font-sans leading-loose ">
+                Varicose vein treatment involves injecting a foam
+                that causes veins to close. Varithena is minimally
+                invasive, and patients reporting pain at the injection
+                or application site in clinical trials was 4.0%.1 There’s
+                no need for incisions or stitches, and treatment is
+                usually less than an hour. Most people only need
+                a single treatment to see results.
+                </p> */}
+            </div>
+          </div>
+
+          {/* Cards Section */}
+          <div className="space-y-6 bg-white p-6 rounded-lg shadow-md ">
+            <h2 className="text-3xl font-semibold font-sans text-sky-900 text-center mb-12 mt-6">
+              Learn More About Varithena Procedure
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-12">
+              <div className="p-4 border bg-gradient-to-r h-[300px] from-sky-700 to-sky-800 rounded-[66px] shadow-sm bg-">
+                <h3 className="font-semibold text-white text-xl text-center my-4">
+                A Quick, Nearly Painless Procedure
+                </h3>
+                <p className="text-base text-white italic text-center mb-2">
+                  Varicose vein treatment involves injecting a foam
+                  that causes veins to close. Varithena is minimally
+                  invasive, and patients reporting pain at the injection
+                  or application site in clinical trials was 4.0%.1 There’s
+                  no need for incisions or stitches, and treatment is
+                  usually less than an hour. Most people only need
+                  a single treatment to see results.    
+                   </p>
               
-              <ul className="list-disc pl-5 mb-4">
-                <li>Monday - Friday: 8AM - 5PM</li>
-                <li>Saturday - Sunday: Closed</li>
-              </ul>
+              </div>
+
+              <div className="p-4 border bg-gradient-to-r from-sky-700 to-sky-800 rounded-[66px] shadow-sm bg-">
+                <h3 className="font-semibold text-white text-xl text-center my-4">
+                What Treatment Is Like
+                </h3>
+                <p className="text-base text-white italic text-center mb-2">
+                Unlike some other foams, Varithena is FDA-approved.
+                During a treatment session, a physician injects the
+                foam inside diseased veins to close them down,
+                allowing blood to flow through other, healthier veins.  
+                   </p>
+              
+              </div>
+
+              <div className="p-4 border bg-gradient-to-r from-sky-700 to-sky-800 rounded-[66px] shadow-sm bg-">
+                <h3 className="font-semibold text-xl text-white text-center my-4">
+                  What are the side effects?
+                </h3>
+                <p className="text-base text-white italic text-center mb-2">
+                The most common side effects are leg pain or
+                discomfort, injection site bruising or pain and
+                potentially serious blood clots in the leg veins.
+                These are not all of the possible side effects
+                of Varithena.
+                   </p>
+              
+              </div>
+
+              
+              
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <iframe
-                src="https://www.google.com/maps?q=35.155611,-106.590278&hl=en&z=14&output=embed"
-                width="600"
-                height="450"
-                loading="lazy"
-                className="w-full h-64 rounded-lg shadow-md"
-              ></iframe>
-            </div>
-          </div>
-        </section>
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">
-            Driving Directions
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="font-semibold text-blue-900 mb-2">
-              N on I25
-              </h3>
-              <p>
-              Get off on the San Mateo exit. Head west on osuna turn right on the street that’s between subway and Motel 6, straight. Building on the left. 4501 Osuna
-              </p>
-            </div>
+
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="p-4 border bg-gradient-to-r from-sky-700 to-sky-800 rounded-[66px] shadow-sm bg-">
+                <h3 className="font-semibold text-white text-xl text-center my-4">
+                Will my insurance cover treatment?
+                </h3>
+                <p className="text-base text-white italic text-center mb-2">
+                Varithena is covered by most Medicare and insurance
+                plans. Coverage may depend on the severity of your
+                varicose veins and symptoms. Your physician’s office
+                may be able to help you understand your coverage.  
+                   </p>
+              
+              </div>
+
+              <div className="p-4 border bg-gradient-to-r from-sky-700 to-sky-800 rounded-[66px] shadow-base ">
+                <h3 className="font-semibold text-white text-xl text-center my-4">
+                Why Treatment is Different
+                </h3>
+                <p className="text-base text-white italic text-center mb-2">
+                There are no incisions, sedation or general
+                anesthesia. Your physician may recommend
+                Varithena, because it:
+                   </p>
+              
+              </div>
+
             
+
+              
+              
+            </div> */}
           </div>
-        </section>
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">
-            Frequently Asked Questions
-          </h2>
-          <div className="space-y-6">
-            <details className="bg-white shadow-md p-6 rounded-lg">
-              <summary className="font-semibold text-blue-900">
-                What Makes Advanced Vascular Different?
-              </summary>
-              <p className="mt-4">
-              • We offer state-of-the-art treatments for venous and aesthetic
-                skin concerns, ensuring you always look and feel your best.
-              </p>
-              <p className="mt-2">
-              • Experience advanced vein treatment and vascular therapy that is painless, non-invasive, and free from side effects delivering effective results while prioritizing your comfort and well-being
-              </p>
-            </details>
-          </div>
-        </section>
-                
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">
-            Request a Consultation
-          </h2>
-          <form 
-          action="https://formspree.io/f/xeoqzgye" // Replace with your Formspree form ID
-            method="POST"
-          className="bg-white shadow-md p-6 rounded-lg">
-            <div className="mb-4">
-              <label
-                className="block text-sm font-semibold mb-2"
-                htmlFor="name"
-              >
-                Name
-              </label>
-              <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                type="text"
-                id="name"
-                name="name"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                className="block text-sm font-semibold mb-2"
-                htmlFor="email"
-              >
-                Email
-              </label>
-              <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                type="email"
-                id="email"
-                name="email"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                className="block text-sm font-semibold mb-2"
-                htmlFor="number"
-              >
-                Phone
-              </label>
-              <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                type="number"
-                id="number"
-                name="number"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                className="block text-sm font-semibold mb-2"
-                htmlFor="message"
-              >
-                Message
-              </label>
-              <textarea
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                id="message"
-                name="message"
-              ></textarea>
-            </div>
-            <div>
-              <button
-                type="submit"
-                className="px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg transition duration-300 hover:bg-blue-800"
-              >
-                Submit
-              </button>
-            </div>
-          </form>
-        </section> 
+          
+          {/* Bottom Paragraphs */}
+          {/* <div className="space-y-4">
+            <h2 className="text-3xl text-sky-900 font-semibold font-sans text-center">
+              ClosureFast Radiofrequency Ablation Catheter
+            </h2>
+            <p className="text-sky-700 text-base font-sans leading-loose text-center max-w-full px-4">
+              Provides thermal energy to the desired treatment site and relays temperature and other feedback to the RF generator. The ClosureFast™ catheter is a specialized medical device used during radiofrequency ablation (RFA) to treat varicose veins and chronic venous insufficiency. It’s one of the most widely used and trusted tools for vein treatment.
+            </p>
+          </div> */}
 
 
-        <TestimonialSection/>        
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <img
+              src="/treatments/varithena/variT.png"
+              alt="Procedure Illustration"
+              className="w-full h-{250px} object-fill rounded-xl"
+            />
+
+            <img        
+              src="/treatments/varithena/variT2.png"
+              alt="Procedure Illustration"
+              className="w-full h-{250px} object-fill rounded-xl"
+            />
+            </div>
+
+          <FaqSection faqs={exampleFaqs}/>
+
+        </div>
       </main>
-
-      <Footer/>
+      <Footer />
     </div>
   );
 };
 
-export default Rfa;
+export default Varithena;

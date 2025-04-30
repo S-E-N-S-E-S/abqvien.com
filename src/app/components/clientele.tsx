@@ -18,7 +18,7 @@ const ClienteleSection = () => {
     <section className="relative overflow-hidden py-10 bg-white pb-20">
       <div className="relative">
         {/* Marquee Container */}
-        <h2 className="flex justify-center text-black text-3xl">
+        <h2 className="flex justify-center text-sky-900 text-3xl">
           Results We Produced
         </h2>
         <div

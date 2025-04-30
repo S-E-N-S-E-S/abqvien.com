@@ -47,10 +47,10 @@ export default function TestimonialSection() {
 
   return (
     <div className="bg-blue-50 py-16 px-4 sm:px-8 lg:px-16 text-center relative overflow-hidden">
-      <h2 className="text-gray-700 text-sm font-semibold uppercase mb-4">
+      <h2 className="text-sky-900 text-sm font-semibold uppercase mb-4">
         What Our Patients Say
       </h2>
-      <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">
+      <h1 className="text-3xl sm:text-4xl font-bold text-sky-900 mb-8">
         Testimonials
       </h1>
       <div className="relative h-48 flex items-center justify-center">
@@ -67,10 +67,10 @@ export default function TestimonialSection() {
             }}
             className="absolute"
           >
-            <p className="text-lg sm:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-sky-700 leading-relaxed max-w-3xl mx-auto">
               {testimonials[current].text}
             </p>
-            <p className="text-gray-600 mt-4 italic">- {testimonials[current].author}</p>
+            <p className="text-sky-700 mt-4 italic">- {testimonials[current].author}</p>
           </motion.div>
         </AnimatePresence>
       </div>
@@ -88,7 +88,7 @@ export default function TestimonialSection() {
           ↓
         </button>
       </div>
-      <button className="mt-8 bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
+      <button className="mt-8 bg-sky-700 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
       <Link href="../about">About Us</Link>
       </button>
     </div>

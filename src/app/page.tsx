@@ -11,8 +11,8 @@ const HomePage = () => {
   const areas = [
     { title: "RFA", icon: "/treatments/rfa.png" },
     { title: "Venaseal", icon: "/treatments/venaseal.png" },
-    { title: "Varithena", icon: "vessel.jpg" },
-    { title: "Asclera", icon: "angiogram.jpg" },
+    { title: "Varithena", icon: "/treatments/varithena/varithena.png" },
+    { title: "Asclera", icon: "/treatments/asclera/image5.png" },
     { title: "Laser Ablation", icon: "angiogram.jpg" },
   ];
 
@@ -44,13 +44,13 @@ const HomePage = () => {
           </div>
         </section>
 
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-10 pt-20">
+        <h2 className="text-3xl font-bold text-center text-sky-900 mb-10 pt-20">
           Understanding Vein Disease
         </h2>
         <HoverImageSection />
 
         <section className="max-w-7xl mx-auto py-20 mb-5">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
+          <h2 className="text-3xl font-bold text-center text-sky-900 mb-10">
             Procedures Performed
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
@@ -62,15 +62,15 @@ const HomePage = () => {
                 <img
                   src={area.icon}
                   alt={area.title}
-                  className="w-50 h-50 mb-4"
+                  className="w-50 h-50 mb-4 h-52"
                 />
-                <p className="text-gray-800 font-medium">{area.title}</p>
+                <p className="text-sky-900 font-medium">{area.title}</p>
               </div>
             ))}
           </div>
         </section>
 
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-10 pt-5">Chronic Venous Insufficiency (CVI) Results:</h2>
+        <h2 className="text-3xl font-bold text-center text-sky-900 mb-10 pt-5">Chronic Venous Insufficiency (CVI) Results:</h2>
         
         <ClienteleSection />
 
@@ -78,10 +78,10 @@ const HomePage = () => {
   <div className="flex flex-col md:flex-row items-center justify-between px-8 py-16 md:py-24 bg-white space-y-8 md:space-y-0 md:space-x-12">
     {/* Left Column: Text Content */}
     <div className="flex-1 text-center md:text-left">
-      <h2 className="text-3xl md:text-4xl font-bold mb-6">
+      <h2 className="text-3xl md:text-4xl text-sky-900 font-bold mb-6">
         Meet Dr. Satyaki Banerjee
       </h2>
-      <p className="text-gray-700 leading-relaxed">
+      <p className="text-sky-700 leading-relaxed">
         Dr. Satyaki Banerjee is a Board-Certified and highly experienced Interventional Nephrologist. He completed his interventional training at Louisiana State University and served as a faculty member at the University of Tennessee as an interventionist. Dr. Banerjee is ASDIN Certified and has performed over 5,000 dialysis access procedures throughout his career.
         <br /><br />
         Currently, Dr. Banerjee serves as the lead vascular surgeon for Advanced Vascular in Albuquerque, NM. Advanced Vascular provides comprehensive care for patients across New Mexico, specializing in the treatment and maintenance of vascular access. Dr. Banerjee and the dedicated team at Advanced Vascular are committed to delivering high-quality care in a welcoming and comfortable environment, with a strong focus on excellent customer service.

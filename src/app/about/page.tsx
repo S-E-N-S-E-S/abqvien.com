@@ -200,8 +200,8 @@ const About: React.FC = () => {
     </div>
   );
 };
- export default About;
- //<header className="bg-white shadow-md sticky top-0 z-10 m-0">
+
+export default About;
 //       <div className="bg-sky-700 text-white justify-between py-1  ">
 //         <div className="flex justify-between space-x-4">
 //         <div className="flex items-center space-x-2 pl-4">
