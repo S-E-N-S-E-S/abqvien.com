@@ -1,9 +1,8 @@
 import React from "react";
-import Link from "next/link";
 import Header from "@/app/components/header";
-import TestimonialSection from "@/app/components/testimonial";
 import Footer from "@/app/components/footer";
 import FaqSection from "@/app/components/faq";
+import Image from "next/image";
 
 
 const Varithena = () => {
@@ -51,7 +50,7 @@ const Varithena = () => {
             </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img
+            <Image
               src="/treatments/varithena/vari1.jpeg"
               alt="Procedure Illustration"
               className="w-full h-96 object-fill rounded-xl "
@@ -185,13 +184,13 @@ const Varithena = () => {
 
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img
+            <Image
               src="/treatments/varithena/variT.png"
               alt="Procedure Illustration"
               className="w-full h-{250px} object-fill rounded-xl"
             />
 
-            <img        
+            <Image        
               src="/treatments/varithena/variT2.png"
               alt="Procedure Illustration"
               className="w-full h-{250px} object-fill rounded-xl"

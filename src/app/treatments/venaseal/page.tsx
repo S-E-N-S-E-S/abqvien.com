@@ -1,7 +1,5 @@
 import React from "react";
-import Link from "next/link";
 import Header from "@/app/components/header";
-import TestimonialSection from "@/app/components/testimonial";
 import Footer from "@/app/components/footer";
 import FaqSection from "@/app/components/faq";
 

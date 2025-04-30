@@ -4,7 +4,6 @@ import ClienteleSection from "./components/clientele";
 import HoverImageSection from "./components/hover";
 import TestimonialSection from "./components/testimonial";
 import Footer from "./components/footer";
-import Link from "next/link";
 import Header from "./components/header";
 
 const HomePage = () => {
@@ -64,7 +63,7 @@ const HomePage = () => {
                   alt={area.title}
                   className="w-50 h-50 mb-4 h-52"
                 />
-                <p className="text-sky-900 font-medium">{area.title}</p>
+                <p className="text-sky-700 font-medium">{area.title}</p>
               </div>
             ))}
           </div>

@@ -1,9 +1,8 @@
 import React from "react";
-import Link from "next/link";
 import Header from "@/app/components/header";
-import TestimonialSection from "@/app/components/testimonial";
 import Footer from "@/app/components/footer";
 import FaqSection from "@/app/components/faq";
+import Image from "next/image";
 
 
 const La = () => {
@@ -51,7 +50,7 @@ const La = () => {
                   ClosureFast™ Radiofrequency Ablation System
                 </h2>
     
-                <img
+                <Image
                   src="/treatments/rfa/rfa_c1.png"
                   alt="Descriptive Alt Text"
                   className="w-full h-full object-cover rounded-xl mb-10"
@@ -126,7 +125,7 @@ const La = () => {
                       </ul>
                       <li><strong>💙 After the Procedure</strong></li>
                       <ul className="list-disc list-inside pl-4">
-                        <li><strong>Immediate Walking Encouraged:</strong> You'll be asked to walk right after—it helps with circulation and healing.</li>
+                        <li><strong>Immediate Walking Encouraged:</strong> Youll be asked to walk right after—it helps with circulation and healing.</li>
                         <li><strong>Compression Stockings:</strong> You may be advised to wear them for a few days to aid healing and reduce swelling.</li>
                         <li><strong>Minimal Downtime:</strong> Most patients return to work and normal activities the next day.</li>
                       </ul>
@@ -137,7 +136,7 @@ const La = () => {
     
               {/* Two Column Section */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <img
+                <Image
                   src="/treatments/rfa/rfa_p1.jpg"
                   alt="Procedure Illustration"
                   className="w-full h-96 object-cover rounded-xl "
@@ -163,7 +162,7 @@ const La = () => {
               </div>
     
               <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-                <img
+                <Image
                   src="/treatments/rfa/rfa_catheter.png"
                   alt="Procedure Illustration"
                   className="w-full h-full object-cover rounded-xl"
@@ -189,7 +188,7 @@ const La = () => {
               </div>
     
               <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-                <img
+                <Image
                   src="/treatments/rfa/rfa_catheter_2.png"
                   alt="Procedure Illustration"
                   className="w-full h-full object-cover rounded-xl"
