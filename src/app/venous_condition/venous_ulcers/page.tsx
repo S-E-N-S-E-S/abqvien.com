@@ -2,7 +2,6 @@ import React from "react";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import FaqSection from "@/app/components/faq";
-import Image from "next/image";
 
 
 const VenousUlcers = () => {
@@ -51,7 +50,7 @@ const VenousUlcers = () => {
             </h2>
 
             <div className="flex justify-center">
-              <Image
+              <img
               src="/vc/venous_ulcers/image4.png"
               alt="Venous Ulcers"
               className="w-4/5 h-full object-cover rounded-xl mb-10 border-4 border-sky-900"
@@ -77,7 +76,7 @@ const VenousUlcers = () => {
              They are the most common type of leg ulcer.
               </p>
             </div>
-           <Image
+           <img
              src="/vc/venous_ulcers/venous1.jpg"
              alt="Illustration"
              className="w-full h-64 md:h-96 object-fill rounded-xl"
@@ -87,7 +86,7 @@ const VenousUlcers = () => {
 
           {/* Two Column Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Image
+            <img
               src="/vc/venous_ulcers/image7.png"
               alt="Procedure Illustration"
               className="w-full h-full object-fill rounded-lg"
@@ -105,7 +104,7 @@ const VenousUlcers = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <Image
+            <img
               src="/vc/venous_ulcers/image.png"
               alt="Procedure Illustration"
               className="w-full h-full object-cover rounded-xl"
@@ -132,7 +131,7 @@ const VenousUlcers = () => {
                 <li>History of leg injuries (trauma to veins)</li>
               </ul>
            </div>
-           <Image
+           <img
              src="/vc/spider/image3.png"
              alt="Procedure Illustration"
              className="w-full h-64 md:h-96 object-fill rounded-xl"
@@ -142,8 +141,8 @@ const VenousUlcers = () => {
 
           {/* Two Column Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Image
-              src="/vc/venous_ulcers/image8.png"
+            <img
+              src="/vc/venous_ulcers/image4.png"
               alt="Procedure Illustration"
               className="w-full h-full object-fill rounded-lg"
             />
@@ -165,7 +164,7 @@ const VenousUlcers = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <Image
+            <img
               src="/vc/venous_ulcers/image1.png"
               alt="Procedure Illustration"
               className="w-full h-full object-cover rounded-xl"
@@ -187,7 +186,7 @@ const VenousUlcers = () => {
                 <li>Prevents new ulcers from forming in the futur</li>
                 </ul>
            </div>
-           <Image
+           <img
              src="/treatments/rfa/rfa_p1.jpg"
              alt="Procedure Illustration"
              className="w-full h-64 md:h-96 object-cover rounded-xl"

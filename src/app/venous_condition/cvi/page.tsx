@@ -2,7 +2,6 @@ import React from "react";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import FaqSection from "@/app/components/faq";
-import Image from "next/image";
 
 
 const Cvi = () => {
@@ -57,7 +56,7 @@ const Cvi = () => {
             </h2>
 
             <div className="flex  justify-center">
-              <Image
+              <img
               src="/vc/cvi/cvi1.png"
               alt="Descriptive Alt Text"
               className="w-4/5 h-full object-cover rounded-xl mb-10"
@@ -118,7 +117,7 @@ const Cvi = () => {
 
           {/* Two Column Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Image
+            <img
               src="/vc/cvi/cvi2.png"
               alt="Procedure Illustration"
               className="w-full h-96 object-cover rounded-xl "
@@ -161,7 +160,7 @@ const Cvi = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <Image
+            <img
               src="/vc/cvi/cvi3.png"
               alt="Procedure Illustration"
               className="w-full h-full object-cover rounded-xl"
@@ -177,7 +176,7 @@ const Cvi = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <Image
+            <img
               src="/vc/cvi/cvi4.png"
               alt="Procedure Illustration"
               className="w-full h-full object-cover rounded-xl"
@@ -195,7 +194,7 @@ const Cvi = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <Image
+            <img
               src="/vc/cvi/cvi5.png"
               alt="Procedure Illustration"
               className="w-full h-full object-cover rounded-xl"
@@ -212,7 +211,7 @@ const Cvi = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <Image
+            <img
               src="/vc/cvi/cvi6.png"
               alt="Procedure Illustration"
               className="w-full h-full object-cover rounded-xl"
@@ -229,7 +228,7 @@ const Cvi = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <Image
+            <img
               src="/vc/cvi/cvi7.png"
               alt="Procedure Illustration"
               className="w-full h-full object-cover rounded-xl"
@@ -258,7 +257,7 @@ const Cvi = () => {
               (Consult your insurance carrier for specific coverage rules.)              </p>
             </div>
 
-            <Image
+            <img
               src="/vc/cvi/cvi8.png"
               alt="Procedure Illustration"
               className="w-full h-96 object-fill rounded-xl "
@@ -303,7 +302,7 @@ relief of symptoms.
               </h3>
             </div>
 
-            <Image
+            <img
               src="/vc/cvi/cvi9.png"
               alt="Procedure Illustration"
               className="w-full h-auto object-fill rounded-xl"
@@ -395,7 +394,7 @@ relief of symptoms.
           </div> */}
 
           {/* <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <Image
+            <img
               src="/treatments/rfa/rfa_catheter_2.png"
               alt="Procedure Illustration"
               className="w-full h-full object-cover rounded-xl"

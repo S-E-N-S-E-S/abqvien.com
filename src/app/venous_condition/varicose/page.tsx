@@ -2,7 +2,6 @@ import React from "react";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import FaqSection from "@/app/components/faq";
-import Image from "next/image";
 
 
 const Varicose = () => {
@@ -55,7 +54,7 @@ const Varicose = () => {
             </h2>
 
             <div className="flex  justify-center">
-              <Image
+              <img
               src="/vc/varicose/varicose2.jpg"
               alt="Descriptive Alt Text"
               className="w-4/5 h-full object-cover rounded-xl mb-10"
@@ -80,12 +79,12 @@ const Varicose = () => {
              </p>
              </div>
              <div className="flex flex-col bg-white rounded-xl md:flex-row gap-4">
-             <Image
+             <img
                src="/vc/varicose/varicose1.jpg"
                alt="Procedure Illustration"
                className="w-full md:w-1/2 h-64 md:h-96 object-fill rounded-xl"
              />
-             <Image
+             <img
                src="/vc/varicose/image.png"
                alt="Procedure Illustration"
                className="w-full md:w-1/2 h-64 md:h-96 object-fill rounded-xl"
@@ -96,7 +95,7 @@ const Varicose = () => {
 
           {/* Two Column Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Image
+            <img
               src="/vc/spider/image.png"
               alt="Procedure Illustration"
               className="w-full h-full object-contain rounded-lg"
@@ -134,7 +133,7 @@ const Varicose = () => {
                 <li>Hormonal changes (birth control pills, menopause)</li>
               </ul>
            </div>
-           <Image
+           <img
              src="/vc/varicose/varicose3.jpg"
              alt="Procedure Illustration"
              className="w-full h-64 md:h-96 object-fill rounded-xl"
@@ -144,7 +143,7 @@ const Varicose = () => {
 
           {/* Two Column Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Image
+            <img
               src="/vc/varicose/varicose4.jpg"
               alt="Procedure Illustration"
               className="w-full h-full object-fill rounded-lg"
@@ -180,7 +179,7 @@ const Varicose = () => {
                 <li>Ambulatory Phlebectomy</li>
                 </ul>
            </div>
-           <Image
+           <img
              src="/treatments/rfa/rfa_p1.jpg"
              alt="Procedure Illustration"
              className="w-full h-64 md:h-96 object-cover rounded-xl"

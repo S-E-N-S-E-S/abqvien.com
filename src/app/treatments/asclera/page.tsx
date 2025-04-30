@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
 import FaqSection from "@/app/components/faq";
-import Image from "next/image";
 
 const Asclera = () => {
 
@@ -50,7 +49,7 @@ const Asclera = () => {
             Asclera® (Polidocanol) Injection
             </h2>
 
-            <Image
+            <img
               src="/treatments/asclera/image.png"
               alt="Descriptive Alt Text"
               className="w-full h-full object-cover rounded-xl mb-10"
@@ -162,7 +161,7 @@ const Asclera = () => {
 
             <div className="flex flex-col bg-white rounded-lg shadow-md ">
                 <div className="flex flex-col md:flex-row w-full h-auto rounded-lg bg-white p-8 space-y-6 md:space-y-0 md:space-x-6">
-                <Image
+                <img
                   src="/treatments/asclera/imag1.png"
                   alt="Procedure Illustration"
                   className="w-full md:w-1/2 h-96 object-cover rounded-xl"
@@ -202,7 +201,7 @@ const Asclera = () => {
             <div className="flex flex-col bg-white rounded-lg shadow-md ">
                 <div className="flex flex-col md:flex-row w-auto h-auto rounded-lg bg-white p-8  space-y-6 md:space-y-0 md:space-x-6">
                 
-                <Image
+                <img
                   src="/treatments/asclera/image2.png"
                   alt="Procedure Illustration"
                   className="w-full md:w-1/2 h-96 object-cover rounded-xl shadow-2xl"
@@ -244,7 +243,7 @@ const Asclera = () => {
                           
                         </ul>
                       </div>
-                      <Image
+                      <img
                         src="/treatments/asclera/image3.png"
                         alt="Procedure Illustration"
                         className="w-1/2 md:w-1/2 h-96 object-contain rounded-xl"
@@ -263,7 +262,7 @@ const Asclera = () => {
 
             {/* Two Column Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-white p-6 shadow-md rounded-lg">
-            <Image
+            <img
               src="/treatments/asclera/image4.png"
               alt="Procedure Illustration"
               className="w-full h-full object-contain rounded-xl"

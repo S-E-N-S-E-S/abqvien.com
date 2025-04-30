@@ -2,7 +2,6 @@ import React from "react";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import FaqSection from "@/app/components/faq";
-import Image from "next/image";
 
 
 const Spider = () => {
@@ -49,7 +48,7 @@ const Spider = () => {
             </h2>
 
             <div className="flex  justify-center">
-              <Image
+              <img
               src="/vc/spider/spider1.webp"
               alt="Descriptive Alt Text"
               className="w-4/5 h-full object-cover rounded-xl mb-10"
@@ -72,7 +71,7 @@ const Spider = () => {
              <p className="text-base text-sky-700  text-center leading-loose mb-2 mt-2">
              Spider veins (medical term: telangiectasias) are small, dilated blood vessels near the surface of the skin. Unlike varicose veins (which are larger, twisted, and bulging), spider veins are thin and flat, but still very visible.             </p>
            </div>
-           <Image
+           <img
              src="/vc/spider/spider2.jpg"
              alt="Procedure Illustration"
              className="w-full h-64 md:h-96 object-contain rounded-xl"
@@ -82,7 +81,7 @@ const Spider = () => {
 
           {/* Two Column Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Image
+            <img
               src="/vc/spider/image.png"
               alt="Procedure Illustration"
               className="w-full h-full object-contain rounded-lg"
@@ -122,7 +121,7 @@ const Spider = () => {
                 If symptoms become uncomfortable or worsen, it’s a good idea to consult a healthcare provider.
               </p>
            </div>
-           <Image
+           <img
              src="/vc/spider/image3.png"
              alt="Procedure Illustration"
              className="w-full h-64 md:h-96 object-fill rounded-xl"
@@ -132,7 +131,7 @@ const Spider = () => {
 
           {/* Two Column Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Image
+            <img
               src="/vc/spider/image4.png"
               alt="Procedure Illustration"
               className="w-full h-full object-fill rounded-lg"
@@ -165,7 +164,7 @@ const Spider = () => {
                 <li>Use compression garments if recommended</li>
                 </ul>
            </div>
-           <Image
+           <img
              src="/treatments/rfa/rfa_p1.jpg"
              alt="Procedure Illustration"
              className="w-full h-64 md:h-96 object-cover rounded-xl"

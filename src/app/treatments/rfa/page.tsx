@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import FaqSection from "@/app/components/faq";
-import Image from "next/image";
+
 
 const Rfa = () => {
 
@@ -52,7 +52,6 @@ const Rfa = () => {
   return (
     <div className="bg-gradient-to-r from-blue-50 to-green-50 text-gray-500 font-sans">
       <Header />
-
       <main className="container mx-auto px-4 py-8">
         <div className="px-4 py-8 space-y-12 max-w-full mx-auto">
           {/* Top Section with Image and Text */}
@@ -61,7 +60,7 @@ const Rfa = () => {
               ClosureFast™ Radiofrequency Ablation System
             </h2>
 
-            <Image
+            <img
               src="/treatments/rfa/rfa_c1.png"
               alt="Descriptive Alt Text"
               className="w-full h-full object-cover rounded-xl mb-10"
@@ -136,7 +135,7 @@ const Rfa = () => {
                   </ul>
                   <li><strong>💙 After the Procedure</strong></li>
                   <ul className="list-disc list-inside pl-4">
-                    <li><strong>Immediate Walking Encouraged:</strong> Youll be asked to walk right after—it helps with circulation and healing.</li>
+                    <li><strong>Immediate Walking Encouraged:</strong> You will be asked to walk right after—it helps with circulation and healing.</li>
                     <li><strong>Compression Stockings:</strong> You may be advised to wear them for a few days to aid healing and reduce swelling.</li>
                     <li><strong>Minimal Downtime:</strong> Most patients return to work and normal activities the next day.</li>
                   </ul>
@@ -147,7 +146,7 @@ const Rfa = () => {
 
           {/* Two Column Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Image
+            <img
               src="/treatments/rfa/rfa_p1.jpg"
               alt="Procedure Illustration"
               className="w-full h-64 md:h-96 object-cover rounded-xl"
@@ -174,7 +173,7 @@ const Rfa = () => {
           </div> */}
 
           {/* <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <Image
+            <img
               src="/treatments/rfa/rfa_catheter.png"
               alt="Procedure Illustration"
               className="w-full h-full object-cover rounded-xl"
@@ -200,7 +199,7 @@ const Rfa = () => {
           </div> */}
 
           {/* <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <Image
+            <img
               src="/treatments/rfa/rfa_catheter_2.png"
               alt="Procedure Illustration"
               className="w-full h-full object-cover rounded-xl"
