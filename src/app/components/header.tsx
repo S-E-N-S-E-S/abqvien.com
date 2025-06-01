@@ -19,9 +19,11 @@ const Header: React.FC = () => {
 
           <div className="flex items-center space-x-2 pl-4">
           <img src="/svg/location.svg" alt="Cell Icon" className="w-6 h-6" />
-            <h1 className="text-lg font-sans text-center">Our</h1>
-            <h1 className="text-lg font-extrabold text-center">Osuna Road NE, Albuquerque</h1>
-            <h1 className="text-lg font-sans text-center">Office</h1>
+            <Link href="/contact-us" className="flex flex-col items-center">
+            <h1 className="text-lg font-sans text-center">
+              Our <span className="font-extrabold">Osuna Road NE, Albuquerque</span> Office
+            </h1>
+            </Link>
           </div>
 
           <div className="flex items-center space-x-2 pr-4">

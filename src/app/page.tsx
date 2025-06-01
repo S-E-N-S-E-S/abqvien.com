@@ -12,7 +12,7 @@ const HomePage = () => {
     { title: "Venaseal", icon: "/treatments/venaseal.png" },
     { title: "Varithena", icon: "/treatments/varithena/varithena.png" },
     { title: "Asclera", icon: "/treatments/asclera/image5.png" },
-    { title: "Laser Ablation", icon: "angiogram.jpg" },
+    { title: "Laser Ablation", icon: "/treatments/la/la_home.png" },
   ];
 
   return (
@@ -21,7 +21,7 @@ const HomePage = () => {
       <main className="container max-w-max">
         <section
           className="parallax bg-fixed bg-cover bg-center h-screen mb-10 relative"
-          style={{ backgroundImage: "url('home.jpg')" }}
+          style={{ backgroundImage: "url('/home/home2.png')" }}
         >
           {/* Dark overlay with blur */}
           <div
@@ -90,7 +90,7 @@ const HomePage = () => {
     {/* Right Column: Image */}
     <div className="flex-1 flex justify-center">
       <img
-        src="banerjee.jpg" // Replace with the actual path to your image
+        src="/home/banerjee.png" // Replace with the actual path to your image
         alt="Dr. Satyaki Banerjee"
         className="w-1/2 h-1/2 rounded-lg shadow-md"
       />
