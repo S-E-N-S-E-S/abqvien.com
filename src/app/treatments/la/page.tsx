@@ -46,90 +46,53 @@ const La = () => {
               {/* Top Section with Image and Text */}
               <div className="space-y-10">
                 <h2 className="text-5xl text-sky-900 text-center font-sans">
-                  ClosureFast™ Radiofrequency Ablation System
+                  Laser Ablation Therapy for Varicose Veins
                 </h2>
     
                 <img
-                  src="/treatments/rfa/rfa_c1.png"
+                  src="/treatments/la/la_home.png"
                   alt="Descriptive Alt Text"
                   className="w-full h-full object-cover rounded-xl mb-10"
                 />
                 <p className="text-sky-700 text-xl font-sans leading-loose text-center max-w-full px-4">
-                  Radiofrequency ablation is a simple and gentle procedure where a thin, soft tube (called a catheter) is placed into the problem vein through a tiny opening in the skin. This tube sends out radiofrequency energy, which warms up the vein just enough to safely close it. Once the vein is closed, the tube is removed, and your body begins to heal right away. Over time, the closed vein is naturally absorbed, and your blood flow is smoothly redirected through nearby healthy veins.
+                Laser ablation is a minimally invasive procedure used to treat varicose veins, which are enlarged, twisted veins commonly found in the legs. This technique involves the use of laser energy delivered through a thin fiber inserted into the affected vein. The laser heats and seals the vein wall, causing it to collapse and eventually be absorbed by the body. Blood is naturally rerouted to healthier veins, improving circulation and reducing symptoms such as pain, swelling, and skin discoloration. 
                 </p>
               </div>
     
               {/* Cards Section */}
               <div className="space-y-6">
                 <h2 className="text-3xl font-semibold font-sans text-sky-900 text-center my-12">
-                  Learn More About Radiofrequency Ablation
+                  Learn More About Laser Ablation
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <div className="p-4 border border-sky-700 rounded-xl shadow-sm bg-white">
-                    <h3 className="font-semibold text-sky-900 text-center my-4">
-                      How It Works
+                  <div className="p-4 border border-sky-700 rounded-xl shadow-sm bg-gradient-to-r from-sky-700 to-sky-800">
+                    <h3 className="font-semibold text-white text-center my-4">
+                    How does the treatment work?
                     </h3>
-                    <p className="text-sm text-sky-700 mb-2">
-                      Radiofrequency ablation uses heat to close problem veins, redirecting blood flow to healthier veins. This minimally invasive procedure ensures quick recovery and effective results.
+                    <p className="text-sm text-white mb-2 text-center leading-relaxed">
+                    Laser ablation is a minimally invasive treatment for varicose veins, which are enlarged veins caused by poor circulation. After numbing the skin with lidocaine, a small wire and catheter are inserted into the affected vein. The catheter delivers laser energy to the vein wall, causing it to heat, collapse, and seal shut. The treated vein is gradually absorbed by the body, while healthy veins take over blood flow.
                     </p>
-                    <ul className="list-disc list-inside text-sm text-sky-700">
-                      <li>Relief of symptoms after two days, with a noticeable improvement in one to two weeks.</li>
-                      <li>Tiny Entry Point: A small opening is made in the skin, usually near the affected vein.</li>
-                      <li>Inserting the Catheter: A very thin, flexible tube (called a catheter) is gently guided into the vein.</li>
-                      <li>Targeting the Problem Vein: The catheter is carefully positioned along the damaged or varicose vein.</li>
-                      <li>Applying Gentle Heat: The catheter sends out radiofrequency energy, which heats the vein walls.</li>
-                      <li>Sealing the Vein: The heat causes the vein to collapse and seal shut.</li>
-                      <li>Catheter Removal: The catheter is then removed, leaving no stitches needed.</li>
-                      <li>Natural Healing: The closed vein is gradually absorbed by your body over time.</li>
-                      <li>Blood Flow is Rerouted: Your blood naturally finds its way through nearby healthy veins, improving circulation.</li>
-                    </ul>
+                    
                   </div>
-                  <div className="p-4 border border-sky-700 rounded-xl shadow-sm bg-white">
-                    <h3 className="font-semibold text-sky-900 text-center my-4">
-                      Benefits
+                  <div className="p-4 border border-sky-700 rounded-xl shadow-sm bg-gradient-to-r from-sky-700 to-sky-800">
+                    <h3 className="font-semibold text-white text-center my-4">
+                    What should I expect on the day of treatment?
                     </h3>
-                    <p className="text-sm text-sky-700 mb-2">
-                      Experience reduced pain, improved circulation, and a quick return to daily activities. RFA is a safe and effective treatment for varicose veins with minimal downtime.
+                    <p className="text-sm text-white mb-2 text-center leading-relaxed">
+                    On the day of your laser ablation treatment, you’ll arrive at the clinic or outpatient center, usually wearing loose, comfortable clothing. The procedure is typically performed under local anesthesia, so you’ll remain awake but relaxed. After cleaning the area, the doctor will numb the skin with lidocaine. A small incision will be made to insert a thin catheter into the targeted vein, often guided by ultrasound.
                     </p>
-                    <ul className="list-disc list-inside text-sm text-sky-700">
-                      <li><strong>✅ Minimally Invasive:</strong> RFA uses a tiny catheter and a small skin puncture—no large incisions or stitches.</li>
-                      <li><strong>🕒 Quick Recovery Time:</strong> Most patients return to normal activities within a day or two.</li>
-                      <li><strong>💡 Effective Results:</strong> RFA is highly successful in closing problematic veins and relieving symptoms like pain, swelling, and heaviness.</li>
-                      <li><strong>🧼 Less Pain & Bruising:</strong> Compared to traditional vein surgery, RFA typically causes less discomfort and fewer side effects.</li>
-                      <li><strong>⏱️ Fast Procedure:</strong> The treatment usually takes less than an hour and is done in-office or outpatient settings.</li>
-                      <li><strong>🚫 No General Anesthesia Needed:</strong> Local anesthesia is used, reducing risks and allowing a quicker recovery.</li>
-                      <li><strong>🦵 Improved Leg Appearance & Comfort:</strong> Helps reduce visible varicose veins and improves overall leg health and comfort.</li>
-                      <li><strong>🩺 Long-Term Relief:</strong> Many patients experience long-lasting symptom relief and improved quality of life.</li>
-                    </ul>
+                    
                   </div>
-                  <div className="p-4 border border-sky-700 rounded-xl shadow-sm bg-white">
-                    <h3 className="font-semibold text-sky-900 text-center my-4">
-                      What to Expect
+                  <div className="p-4 border border-sky-700 rounded-xl shadow-sm bg-gradient-to-r from-sky-700 to-sky-800">
+                    <h3 className="font-semibold text-white text-center my-4">
+                    What should I do after treatment?
                     </h3>
-                    <p className="text-sm text-sky-700">
-                      The procedure is performed in a comfortable outpatient setting. Most patients report little to no discomfort and can resume normal activities within a day.
+                    <p className="text-sm text-white mb-2 text-center leading-relaxed">
+                    You should walk 30 minutes twice daily after treatment.  This will alleviate discomfort and avoid the pooling of blood in the legs.   It is normal to have aching in the treated veins.  This response is well to walking, ice packs, and anti-inflammatory medications such as ibuprofen (Advil®, Motrin®) and naproxen (Aleve®).
                     </p>
-                    <ul className="list-disc list-inside text-sm text-sky-700">
-                      <li><strong>✅ Before the Procedure</strong></li>
-                      <ul className="list-disc list-inside pl-4">
-                        <li><strong>Initial Consultation:</strong> Your provider will assess your vein health and may perform an ultrasound to map out the problem veins.</li>
-                        <li><strong>Pre-Procedure Instructions:</strong> You may be asked to avoid certain medications, wear loose-fitting clothing, and drink plenty of water.</li>
-                        <li><strong>No General Anesthesia:</strong> Only local anesthesia is used—so you’ll be awake, relaxed, and comfortable during the procedure.</li>
-                      </ul>
-                      <li><strong>🩺 During the Procedure</strong></li>
-                      <ul className="list-disc list-inside pl-4">
-                        <li><strong>Quick & Comfortable:</strong> The procedure typically takes 30–45 minutes.</li>
-                        <li><strong>Minimal Discomfort:</strong> You may feel slight pressure or warmth, but the local anesthesia keeps you comfortable.</li>
-                        <li><strong>Tiny Incision:</strong> A thin catheter is gently inserted into the vein through a small puncture in the skin—no stitches required.</li>
-                      </ul>
-                      <li><strong>💙 After the Procedure</strong></li>
-                      <ul className="list-disc list-inside pl-4">
-                        <li><strong>Immediate Walking Encouraged:</strong> You will be asked to walk right after—it helps with circulation and healing.</li>
-                        <li><strong>Compression Stockings:</strong> You may be advised to wear them for a few days to aid healing and reduce swelling.</li>
-                        <li><strong>Minimal Downtime:</strong> Most patients return to work and normal activities the next day.</li>
-                      </ul>
-                    </ul>
+                    
                   </div>
+                  
                 </div>
               </div>
     
