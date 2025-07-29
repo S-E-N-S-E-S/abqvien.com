@@ -15,7 +15,7 @@ const ContactPage = () => {
               <p className="mb-4">
               4501 Osuna Road NE, Albuquerque, New Mexico, 87109
               </p>
-              <p className="mb-4">Phone: (505) 445-0355</p>
+              <p className="mb-4">Phone: (505) 814-0318</p>
               <p className="mb-4">Fax: (505) 531-8914</p>
               <p className="mb-4">Hours of Operation</p>
               <ul className="list-disc pl-5 mb-4">
